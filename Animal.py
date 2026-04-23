@@ -3,7 +3,7 @@ class Animal:
     def __init__(self, name, sound, legs):
         self.name = name
         self.sound = sound
-        self.legs = legs   # bonus attribute
+        self.legs = legs
 
     def speak(self):
         print("The", self.name, "says:", self.sound, "and has", self.legs, "legs.")
